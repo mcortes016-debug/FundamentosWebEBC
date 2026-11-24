@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fundamentos Web</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Fundamentos Web</h1>
+		<nav aria-label="Navegación principal">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="ux.html" aria-current="page">Experiencia de usuario</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h2>Evaluación de experiencia de usuario</h2>
+		<form>
+			<div>
+				<label for="nombre">Nombre del usuario:</label>
+				<input type="text" id="nombre" name="nombre">
+			</div>
+
+			<fieldset>
+				<legend>¿Qué te pareció el servicio?</legend>
+				<label><input type="radio" name="servicio" value="malo"> Malo</label>
+				<label><input type="radio" name="servicio" value="regular"> Regular</label>
+				<label><input type="radio" name="servicio" value="bueno"> Bueno</label>
+				<label><input type="radio" name="servicio" value="excelente"> Excelente</label>
+			</fieldset>
+
+			<div>
+				<label for="recomendacion">¿Lo recomendarías?</label>
+				<select id="recomendacion" name="recomendacion">
+					<option value="">Selecciona una opción</option>
+					<option value="si">Sí</option>
+					<option value="no">No</option>
+				</select>
+			</div>
+
+			<fieldset>
+				<legend>¿Qué consumo realizaste?</legend>
+				<label><input type="checkbox" name="consumo" value="bebidas-postres"> Bebidas y postres</label>
+			</fieldset>
+		</form>
+	</main>
+
+	<footer>
+		<!-- Agrega aquí la información del pie de página. -->
+	</footer>
+</body>
+</html>
